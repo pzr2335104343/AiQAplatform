@@ -80,7 +80,6 @@ if (props.value) {
 // 自定义请求
 const customRequest = async (option: any) => {
   const { onError, onSuccess, fileItem } = option;
-
   const res: any = await uploadFileUsingPost(
     { biz: props.biz },
     {},
